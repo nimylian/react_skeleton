@@ -1,0 +1,26 @@
+{
+  "name": "react_skeleton",
+  "version": "1.0.0",
+  "description": "React Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimylian/react_skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimylian/react_skeleton/issues"
+  },
+  "homepage": "https://github.com/nimylian/react_skeleton",
+  "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "watchify": "^3.7.0"
+  }
+}
